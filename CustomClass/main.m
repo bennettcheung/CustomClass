@@ -12,8 +12,14 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        Person *person = [[Person alloc] init];
+        [person setName:@"Tony"];
+        
+        Dog *dog = [[Dog alloc] init];
+        [dog setName:@"Lucy"];
+        
+        //NSLog(@"Hello, World!");
     }
     return 0;
 }
