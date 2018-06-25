@@ -12,4 +12,6 @@
 
 @property NSString *name;
 
+-(void) speak;
+
 @end

@@ -22,7 +22,8 @@ int main(int argc, const char * argv[]) {
         [person setName:@"Tony"];
         [person setPet:dog];
         
-        //NSLog(@"Hello, World!");
+        [[person pet] speak];
+        
     }
     return 0;
 }
