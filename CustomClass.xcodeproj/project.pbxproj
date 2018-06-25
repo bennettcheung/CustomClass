@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		914656A020E0A0CB00C15915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9146569F20E0A0CB00C15915 /* main.m */; };
+		914656A820E0A11E00C15915 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 914656A720E0A11E00C15915 /* Person.m */; };
+		914656AB20E0A14800C15915 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 914656AA20E0A14800C15915 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		9146569C20E0A0CB00C15915 /* CustomClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomClass; sourceTree = BUILT_PRODUCTS_DIR; };
 		9146569F20E0A0CB00C15915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914656A620E0A11E00C15915 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		914656A720E0A11E00C15915 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		914656A920E0A14800C15915 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		914656AA20E0A14800C15915 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				9146569F20E0A0CB00C15915 /* main.m */,
+				914656A620E0A11E00C15915 /* Person.h */,
+				914656A720E0A11E00C15915 /* Person.m */,
+				914656A920E0A14800C15915 /* Dog.h */,
+				914656AA20E0A14800C15915 /* Dog.m */,
 			);
 			path = CustomClass;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914656AB20E0A14800C15915 /* Dog.m in Sources */,
+				914656A820E0A11E00C15915 /* Person.m in Sources */,
 				914656A020E0A0CB00C15915 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

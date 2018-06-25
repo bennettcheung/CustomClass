@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Dog.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
