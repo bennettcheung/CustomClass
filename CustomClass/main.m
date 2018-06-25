@@ -13,11 +13,14 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Person *person = [[Person alloc] init];
-        [person setName:@"Tony"];
+
         
         Dog *dog = [[Dog alloc] init];
         [dog setName:@"Lucy"];
+        
+        Person *person = [[Person alloc] init];
+        [person setName:@"Tony"];
+        [person setPet:dog];
         
         //NSLog(@"Hello, World!");
     }

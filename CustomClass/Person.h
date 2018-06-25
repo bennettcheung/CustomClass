@@ -7,9 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Dog.h"
 
 @interface Person : NSObject
 
 @property NSString* name;
+@property Dog *pet;
 
 @end
