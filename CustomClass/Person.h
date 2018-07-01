@@ -14,4 +14,8 @@
 @property NSString* name;
 @property Dog *pet;
 
+// The designated initializer
+-(id)init;
+- (id)initWithNameAndPet:(NSString *)n
+           Pet:(Dog *)p;
 @end

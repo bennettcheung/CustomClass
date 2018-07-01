@@ -18,10 +18,9 @@ int main(int argc, const char * argv[]) {
         Dog *dog = [[Dog alloc] init];
         [dog setName:@"Lucy"];
         
-        Person *person = [[Person alloc] init];
-        [person setName:@"Tony"];
-        [person setPet:dog];
+        Person *person = [[Person alloc] initWithNameAndPet:@"Tony" Pet:dog];
         
+        NSLog(@"%@'s pet is %@", person.name, person.pet.name);
         [[person pet] speak];
         
     }
