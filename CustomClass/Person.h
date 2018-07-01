@@ -13,9 +13,11 @@
 
 @property NSString* name;
 @property Dog *pet;
+@property (readonly) NSDate *dateOfBirth;
 
 // The designated initializer
 -(id)init;
 - (id)initWithNameAndPet:(NSString *)n
-           Pet:(Dog *)p;
+           Pet:(Dog *)p
+           DateOfBirth:(NSDate *)d ;
 @end

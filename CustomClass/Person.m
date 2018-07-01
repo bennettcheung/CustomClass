@@ -11,7 +11,7 @@
 @implementation Person
 
 // The designated initializer
--(id)initWithNameAndPet:(NSString *)n Pet:(Dog *)p
+-(id)initWithNameAndPet:(NSString *)n Pet:(Dog *)p DateOfBirth:(NSDate *)d
 {
     // Call the superclass's initializer
     self = [super init];
@@ -25,6 +25,10 @@
         {
             _pet = p;
         }
+        if (d)
+        {
+            _dateOfBirth = d;
+        }
     
     }
         // Return a pointer to the new object
@@ -36,7 +40,8 @@
 {
     Dog *dog = [[Dog alloc] init];
     [dog setName:@"No Name"];
-    return [self initWithNameAndPet:@"No Name" Pet:dog];
+    NSDate* date = [[NSDate alloc]init];
+    return [self initWithNameAndPet:@"No Name" Pet:dog DateOfBirth:date];
 }
 
 
